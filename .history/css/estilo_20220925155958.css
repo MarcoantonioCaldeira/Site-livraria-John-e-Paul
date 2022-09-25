@@ -1,0 +1,283 @@
+/* Import font from google */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+*{
+   margin: 0;
+}
+
+
+body{
+   background-color:  rgb(240, 224, 224);
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+}
+h1,h3,h4,h5,h6{
+   font-family: 'Open Sans', sans-serif;
+}
+
+.h2_destaque{
+   margin-left: 45%;
+   margin-top: 5%;
+   color:#555;
+   font-family: 'Open Sans', sans-serif;
+}
+
+#topo{
+   background-color: #f5df4e;
+   width: 100%;
+   height:150px;
+   margin:0 auto;
+}
+
+.destaques{
+   background-color: rgb(240, 224, 224);
+   width: 100%;
+   height:1300px;
+}
+
+
+#menu{
+   width:50%;
+   text-align: center;
+   margin-top: 2%;
+   margin-left: 25%;
+   height:50px;
+}
+
+a{
+   font-weight:600;
+   text-decoration: none;
+   margin-left: 10px;
+   font-family: arial;
+   color:#555;
+}
+
+#menu li{
+   display:inline;
+}
+.destaques li{
+   width: 50%;
+   float: left;
+   text-align: center;
+   list-style: none;
+   padding: 20px 0;
+}
+
+ul{
+   font-size: 18px;
+}
+
+
+.ul_rodape{
+   margin-top: 10%;
+}
+
+.destaques li strong{
+   width: 100%;
+   display: block;
+}
+.center{
+   text-align: center;
+}
+
+
+
+button{
+   padding: 10px 20px;
+   background-color: blue;
+   color: #fff;
+   border: none;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+#rodape{
+   width: 100%;
+   height: 200px;
+   background-color:  #f5df4e;
+   color: #ccc;
+   float: left;
+   text-align: center;
+}
+
+p{
+   color: #555;
+   line-height: 34px;
+   margin-left: 4%;
+}
+
+li {
+   display: inline;
+}
+
+/*Produtos*/
+
+.produtos{
+   
+   height:600px;
+}
+
+table{
+   position: relative;
+   margin-left: 27%;
+   top: 20%; 
+   background-color:rgb(240, 224, 224); 
+   border-radius: 5px;
+   border: 1px solid #555;
+}
+
+tr, td{
+   border: 1px solid #555;
+}
+
+
+/*Sobre*/
+
+
+.sobre{
+   width: 100%;
+   height:1400px;
+}
+
+h4
+{
+   text-align: center;
+}
+
+.h1-sobre{
+   margin-top: 6%;
+   margin-left: 40%;
+}
+
+.section-info{
+   position: relative;
+   margin-left: 24%;
+   margin-top: 4%;
+   width: 50%; 
+   height:200px;
+}
+
+
+.h3-valores{
+   margin-top: 6%;
+   margin-left: 43%;
+}
+
+.section-valores{
+   position: relative;
+   margin-left: 24%;
+   margin-top: 4%;
+   width: 50%; 
+   height:200px;
+}
+
+.h3-valores-2{
+   margin-top: 4%;
+   margin-left: 47%;
+}
+
+.h3-missao{
+   margin-top: 4%;
+   margin-left: 47%;
+}
+
+.section-missao{
+   position: relative;
+   margin-left: 24%;
+   margin-top: 4%;
+   width: 50%; 
+   height:200px;
+}
+
+
+/*Contato*/
+
+.section-contato{
+   background-color:rgb(244, 175, 175); 
+   width: 100%;
+   height: 730px;
+}
+
+.formulario{
+   height:500px;
+}
+
+
+form fieldset{
+   border: none;
+}
+form legend{
+   text-transform: uppercase;
+   font-size: 1.2em;
+   padding: 0;
+   width: 100%;
+   border-bottom: 1px solid #555;
+}
+form label{
+   width: 50%;
+} 
+
+form input:not([type=checkbox]){
+   width: 100%;
+   padding: 7px;
+   border-radius: 2px;
+   border: 1px solid;
+}
+
+form select{
+   width: 50%;
+   border-radius: 2px;
+   margin-top: 10%;
+   padding: 7px;
+   border: 1px solid;
+}
+
+form textarea{
+   width: 100%;
+   font-family: arial;
+   border-radius: 2px;
+   border: 1px solid;
+}
+form div{
+   width: 30%;
+   margin: 0 1%;
+   margin-top: 8%;
+   height: 150px;
+}
+
+#news{
+   margin-top:%;
+   margin-left: 20px;
+}
+
+@media  screen and (max-width: 750px){
+
+
+   #main-menu {
+      display: none;
+    }
+    #hamburger-menu {
+      display: inline;
+    }
+
+   h2.center, h1.center{
+      font-size: 19px;
+      color: blue;
+   }
+
+   h2.h2_destaque{
+      margin-left: 40%;
+   }
+
+   ul#ul_rodape{
+      color: red;
+   }
+
+   p{
+      color: black;
+      margin-top: 20%;
+      margin-left: 4%;
+   }
+
+}
