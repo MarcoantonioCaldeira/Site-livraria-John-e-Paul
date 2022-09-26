@@ -35,6 +35,16 @@ h1,h3,h4,h5,h6{
    height:1300px;
 }
 
+
+#menu{
+   width:50%;
+   text-align: center;
+   margin-top: 2%;
+   margin-left: 25%;
+   height:50px;
+}
+
+
 .topnav {
    overflow: hidden;
    margin-left: 27%;
@@ -62,6 +72,9 @@ h1,h3,h4,h5,h6{
  }
 
  
+
+
+
 a{
    font-weight:600;
    text-decoration: none;
